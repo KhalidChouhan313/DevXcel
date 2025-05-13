@@ -86,14 +86,14 @@ function Auth() {
           </div>
 
           <div className="flex justify-center gap-4 mb-">
-            <button className="border border-gray-300 px-4 py-2 rounded-md flex items-center gap-2">
+            <button className="border cursor-pointer border-gray-300 px-4 py-2 rounded-md flex items-center gap-2">
               <img
                 src="https://img.icons8.com/color/20/000000/google-logo.png"
                 alt="Google"
               />
               Sign in with Google
             </button>
-            <button className="border border-gray-300 px-4 py-2 rounded-md flex items-center gap-2">
+            <button className="border cursor-pointer border-gray-300 px-4 py-2 rounded-md flex items-center gap-2">
               <img
                 src="https://img.icons8.com/ios-filled/20/000000/mac-os.png"
                 alt="Apple"
@@ -111,10 +111,10 @@ function Auth() {
 
       <div
         className="w-1/2 h-screen rounded-l-[30px] bg-gradient-to-b md:block hidden
-       from-[#215148] to-[#3E5F4C] text-white p-15 flex flex-col justify-center"
+       from-[#215148] to-[#3E5F4C] text-white p-15 flex flex-col items-center justify-center"
       >
-        <h2 className="text-[2.5vw] font-[600] mb-4 ">
-          Welcome to AAOIFI taxonomy portal
+        <h2 className="text-[2vw] font-[600] mb-2 ">
+          Welcome to AAOIFI taxonomy <br /> portal
         </h2>
         <p className="mb-4 py-[2vh] text-[18px] font-[500]">
           AAOIFI standards are now accessible at your fingertips!
