@@ -91,7 +91,7 @@ function Auth() {
           </div>
 
           <div className="flex justify-center gap-4 mb-">
-            <button className="border cursor-pointer border-gray-300 w-[50vw] px-[2vw] h-[6vh] text-[1.8vh] font-bold
+            <button className="border cursor-pointer border-gray-300 w-[50vw] px-[2vw] h-[6vh] text-[1.5vh] font-bold
              rounded-[10px] flex items-center gap-2">
               <img
                 src="https://img.icons8.com/color/20/000000/google-logo.png"
@@ -99,7 +99,7 @@ function Auth() {
               />
               Sign in with Google
             </button>
-            <button className="border cursor-pointer border-gray-300 w-[50vw] px-[2vw] h-[6vh] rounded-[10px] text-[1.8vh] font-bold
+            <button className="border cursor-pointer border-gray-300 w-[50vw] px-[2vw] h-[6vh] rounded-[10px] text-[1.5vh] font-bold
              flex items-center gap-2">
               <img
                 src="https://img.icons8.com/ios-filled/20/000000/mac-os.png"
