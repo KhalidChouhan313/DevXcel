@@ -112,7 +112,10 @@ export default function Dashboard() {
                   </li>
                 </ul>
                 <div className=" w-full flex justify-end p-1">
-                  <button className="text-[2.5vh] text-[#fff] bg-[#B39847] p-1 rounded-md  "> Click to see More</button>
+                  <button className="text-[2.5vh] text-[#fff] bg-[#B39847] p-1 rounded-md  ">
+                    {" "}
+                    Click to see More
+                  </button>
                 </div>
               </div>
             </div>
@@ -176,6 +179,12 @@ export default function Dashboard() {
                   Practical roadmap
                 </li>
               </ul>
+              <div className=" w-full flex justify-end p-1">
+                <button className="text-[2.5vh] text-[#fff] bg-[#B39847] p-1 rounded-md  ">
+                  {" "}
+                  Click to see More
+                </button>
+              </div>
             </div>
 
             <div className="bg-[#FFFFFF] rounded-md px-3 shadow hover:scale-105 transition">
