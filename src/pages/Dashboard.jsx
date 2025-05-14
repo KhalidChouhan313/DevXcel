@@ -20,7 +20,7 @@ export default function Dashboard() {
     <div className="flex min-h-screen bg-[#F9F6EE] relative">
       <Sidebar />
 
-      <div className="flex-1 absolute z-0 right-0 left-[19%]">
+      <div className="flex-1 absolute z-0 right-0 left-[19vw]">
         <Navbar />
 
         <div className="px-10 py- flex flex-col lg:flex-row gap-6 -mt-[14vh] -ml-3">

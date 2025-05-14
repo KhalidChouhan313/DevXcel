@@ -9,7 +9,7 @@ import {
 
 export const Sidebar = () => {
   return (
-    <div className="bg-[#084C40] text-black w-64 min-h-screen  hidden md:block fixed z-10">
+    <div className="bg-[#084C40] text-black w-[19vw] min-h-screen  hidden md:block fixed z-10">
       <div className="bg-[#FFFFFF] p-4 h-[75vh] rounded-b-[40px]  ">
         {" "}
         <img
