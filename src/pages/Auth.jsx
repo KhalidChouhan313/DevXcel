@@ -91,15 +91,15 @@ function Auth() {
           </div>
 
           <div className="flex justify-center gap-4 mb-">
-            <button className="border cursor-pointer border-gray-300 px-[3vw] h-[32px] text-[12px] font-bold
-             rounded-md flex items-center gap-2">
+            <button className="border cursor-pointer border-gray-300 px-[3vw] h-[32px] text-[1.8vh] font-bold
+             rounded-[10px] flex items-center gap-2">
               <img
                 src="https://img.icons8.com/color/20/000000/google-logo.png"
                 alt="Google"
               />
               Sign in with Google
             </button>
-            <button className="border cursor-pointer border-gray-300 px-[3vw] h-[32px] rounded-md text-[12px] font-bold
+            <button className="border cursor-pointer border-gray-300 px-[3vw] h-[32px] rounded-[10px] text-[1.8vh] font-bold
              flex items-center gap-2">
               <img
                 src="https://img.icons8.com/ios-filled/20/000000/mac-os.png"
@@ -109,7 +109,7 @@ function Auth() {
             </button>
           </div>
 
-          <p className="text-center text-[14px tracking-[1px] py-3 font-semibold">
+          <p className="text-center text-[14px  py-3 font-semibold">
             Have an account?{" "}
             <span className="text-blue-600 cursor-pointer">Sign In</span>
           </p>
